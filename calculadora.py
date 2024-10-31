@@ -17,11 +17,11 @@ sg.theme('Reddit')
 layout = [
     [sg.Text(' ', font=('Helvetica', 8), key='conta')],
     [sg.Text(' ', font=('Helvetica', 20), key='digitando')],
-    [sg.Button(' ', size=(12,2), disabled=True), sg.Button(' ', size=(12,2), disabled=True), sg.Button('=', size=(12,2)),sg.Button('Limpar', size=(12,2))],
-    [sg.Button('7', size=(12,2)),sg.Button('8', size=(12,2)),sg.Button('9', size=(12,2)), sg.Button('/', size=(12,2))],
+    [sg.Button(' ', size=(12,2), disabled=True), sg.Button(' ', size=(12,2), disabled=True), sg.Button('Limpar', size=(12,2)), sg.Button('/', size=(12,2))],
+    [sg.Button('7', size=(12,2)),sg.Button('8', size=(12,2)),sg.Button('9', size=(12,2)), sg.Button('X', size=(12,2))],
     [sg.Button('4', size=(12,2)),sg.Button('5', size=(12,2)),sg.Button('6', size=(12,2)), sg.Button('-', size=(12,2))],
     [sg.Button('1', size=(12,2)),sg.Button('2', size=(12,2)),sg.Button('3', size=(12,2)), sg.Button('+', size=(12,2))],
-    [sg.Button(' ', size=(12,2), disabled=True),sg.Button('0', size=(12,2)),sg.Button(',', size=(12,2)), sg.Button('X', size=(12,2))],
+    [sg.Button(' ', size=(12,2), disabled=True),sg.Button('0', size=(12,2)),sg.Button(',', size=(12,2)), sg.Button('=', size=(12,2))],
 ]
 
 window = sg.Window('Calculadora', layout)
