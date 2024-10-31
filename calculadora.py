@@ -84,8 +84,3 @@ while True:
                 except ZeroDivisionError as error:
                     resultado = "Não é possível dividir por zero"
             window['digitando'].update(resultado)
-
-    print(f'O primeiro numero é: {primeiro_numero}')
-    print(f'O operador numero é: {operador}')
-    print(f'O segundo numero é: {segundo_numero}')
-    print(resultado)
